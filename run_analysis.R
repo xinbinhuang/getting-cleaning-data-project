@@ -85,7 +85,7 @@ str(df)
 df_mean <- df %>% group_by(subject, activity) %>% summarise_if(is.numeric, mean)
 
 # write out the data set
-write.table(df,"./tidy-dataset/tidy.csv", row.name=FALSE)
-write.table(df_mean,"./tidy-dataset/tidymean.csv", row.name=FALSE)
+write.table(df,"./tidy-dataset/tidy.txt", row.name=FALSE)
+write.table(df_mean,"./tidy-dataset/tidymean.txt", row.name=FALSE)
 
 
