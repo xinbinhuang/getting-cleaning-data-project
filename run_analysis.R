@@ -2,8 +2,8 @@
 #
 #  Script instructions
 #      Set the "path" to be the location inside the "UCI HAR Dataset", and then you can
-#      run through all the scripts. At the end, it will produce two tidy dataset "tidy.csv"
-#      and "tidymean.csv" in the "tidy-dataset" folder.
+#      run through all the scripts. At the end, it will produce two tidy dataset "tidy.txt"
+#      and "tidymean.txt" in the "tidy-dataset" folder.
 # ------------------------------------------------------------------------------
 # 
 # What this script do:
@@ -85,7 +85,7 @@ str(df)
 df_mean <- df %>% group_by(subject, activity) %>% summarise_if(is.numeric, mean)
 
 # write out the data set
-write_csv(df,"./tidy-dataset/tidy.csv")
-write_csv(df_mean, "./tidy-dataset/tidymean.csv")
+write.table(df,"./tidy-dataset/tidy.csv", row.name=FALSE)
+write.table(df_mean,"./tidy-dataset/tidymean.csv", row.name=FALSE)
 
 

@@ -11,4 +11,4 @@ The dataset being used is: [Human Activity Recognition Using Smartphones](http:/
 
 - `run_analysis.R` contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file.
 
-- The `tidy-dataset` folder contains two tidy dataset, `tidy.csv` and `tidymean.csv`. Please refer to the `CodeBook.md` for details.
+- The `tidy-dataset` folder contains two tidy dataset, `tidy.txt` and `tidymean.txt`. Please refer to the `CodeBook.md` for details.

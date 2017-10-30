@@ -96,4 +96,4 @@ After setting the source directory for the files, read into tables the data loca
 ## Section 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 - Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-- Output the original tidy dataset at step 4, `tidy.csv` and the tidy dataset at step 5 `tidymean.csv` into the `tidy-dataset` folder.  
+- Output the original tidy dataset at step 4, `tidy.txt` and the tidy dataset at step 5 `tidymean.txt` into the `tidy-dataset` folder.  
